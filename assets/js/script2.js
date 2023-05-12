@@ -46,7 +46,6 @@ function cambiarContenidos(){
    
 }
 
-
 function asignarEventos(){
     let elDivImagen = document.getElementById('imagenReactiva');
     elDivImagen.addEventListener('mouseover', mostrarTexto );
