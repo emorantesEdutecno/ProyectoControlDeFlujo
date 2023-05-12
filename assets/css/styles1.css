@@ -1,0 +1,67 @@
+:root {
+    
+    --colorClaro0: #fff;
+    --colorClaro1: #f0f0f0;
+    --colorClaro2: #ccc;
+}
+
+p {
+    margin: 0px;
+}
+
+.contenedorGrande {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedorPequeño {
+    background: var(--colorClaro1);
+    box-sizing: border-box;
+    border: 1px solid var(--colorClaro2);
+    border-radius: 10px;
+    padding: 20px;
+    margin:15px;
+    width: 382px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px 10px 5px 10px;
+}
+
+.actividades{
+    margin-right: 10px;
+}
+
+.descripcion {
+    background: var(--colorClaro0);
+    border: 1px solid var(--colorClaro2);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.imagen {
+    background: #85b7b9;
+    margin: 20px 0px;
+    height: 200px;
+    width: 340px;
+}
+
+.texto-imagenes{
+    display: none;
+    color: white;
+    position:absolute;
+    top: 280px;
+    left: 630px;
+
+}
